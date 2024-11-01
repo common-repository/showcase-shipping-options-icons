@@ -1,0 +1,19 @@
+.wrap .form-table th,
+.wrap .form-table td {
+    padding: 5px 10px;
+}
+
+.wrap .form-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input.ssopm-icon-size-input {
+    width: 55px !important;
+    padding: 5px;
+}
+
+.shipping-icons img:last-child {
+    margin-right: 0;
+}
